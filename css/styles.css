@@ -1,0 +1,10 @@
+.navbar-nav li:hover .dropdown-menu {
+    display: inline-block;
+  }
+  
+  /* rotate caret on hover */
+  .dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+  }
+
